@@ -1,3 +1,4 @@
+[![Build Status](https://dev.azure.com/qsys-dev/Reflect%20Lab/_apis/build/status%2Fqsc-gertrosenboom.js-e2e-express-server?branchName=main)](https://dev.azure.com/qsys-dev/Reflect%20Lab/_build/latest?definitionId=31&branchName=main)
 ---
 page_type: sample
 languages:
