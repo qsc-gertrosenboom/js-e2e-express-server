@@ -6,9 +6,18 @@
 trigger:
 - main
 
+strategy:
+  matrix:
+    linux:
+      imageName: "ubuntu-latest"
+    mac:
+      imageName: "macOS-latest"
+    windows:
+      imageName: "windows-latest"
+  maxParallel: 3
+
 pool:
-  vmImage: ubuntu-latest
-  name: Azure Pipelines
+  vmImage: $(imageName)
 
 steps:
 - script: echo Hello, world!
